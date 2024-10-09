@@ -107,7 +107,7 @@ func run() {
 
 	go func() {
 		fmt.Println("[main] if no one stops the application myself, I will do it in a few seconds")
-		time.Sleep(time.Second * 2)
+		time.Sleep(time.Second * 5)
 		fmt.Println("[main] stopping the application")
 		daemon.Stop()
 
